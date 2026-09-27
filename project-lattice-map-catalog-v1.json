@@ -1,0 +1,44 @@
+{
+  "catalogVersion": 1,
+  "publishedAt": "2026-09-27T00:00:00Z",
+  "packages": [
+    {
+      "id": "de-base",
+      "type": "BASE",
+      "displayNames": { "de": "Deutschland Basis", "en": "Germany Base" },
+      "regionGroup": "DE",
+      "version": "20260608-v1",
+      "bounds": { "west": 5.5, "south": 47.0, "east": 15.5, "north": 55.2 },
+      "sizeBytes": 113654744,
+      "sha256": "fcc629712da3614d8e0209daac389012c5e7ea5a99dc5d4dc7b2e6839b942ae5",
+      "pmtilesVersion": 3,
+      "shortbreadVersion": "1.0",
+      "minZoom": 0,
+      "maxZoom": 10,
+      "layerProfile": "BASE_ORIENTATION",
+      "capabilities": ["land", "water", "boundaries", "roads", "rail", "places", "labels"],
+      "downloadUrl": "https://github.com/Zeitgeist2/project-lattice-map-packages/releases/download/v1.0.0/project-lattice-map-de-base-20260608-v1.pmtiles",
+      "attribution": "© OpenStreetMap contributors · ODbL",
+      "minimumAppVersionCode": 19
+    },
+    {
+      "id": "de-berlin-detail",
+      "type": "DETAIL",
+      "displayNames": { "de": "Berlin Detail", "en": "Berlin Detail" },
+      "regionGroup": "DE/BE",
+      "version": "20260608-v1",
+      "bounds": { "west": 13.0, "south": 52.28, "east": 13.85, "north": 52.73 },
+      "sizeBytes": 52660865,
+      "sha256": "938f9d9962ea9e5993b19f29ae28ca3bd7eb1873d6390e96a7d5f1a50ce51d17",
+      "pmtilesVersion": 3,
+      "shortbreadVersion": "1.0",
+      "minZoom": 0,
+      "maxZoom": 14,
+      "layerProfile": "DETAIL_SHORTBREAD",
+      "capabilities": ["land", "water", "boundaries", "roads", "rail", "buildings", "public_transport", "places", "labels"],
+      "downloadUrl": "https://github.com/Zeitgeist2/project-lattice-map-packages/releases/download/v1.0.0/project-lattice-map-berlin-detail-20260608-v1.pmtiles",
+      "attribution": "© OpenStreetMap contributors · ODbL",
+      "minimumAppVersionCode": 19
+    }
+  ]
+}
