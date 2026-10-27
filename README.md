@@ -17,3 +17,10 @@ The generated map packages must retain this attribution.
 
 The Project Lattice app selects packages locally. Catalog and asset requests do
 not contain a GPS position, H3 index, route, account identity or gameplay data.
+
+## Interface language packages
+
+The separate `language-packs-v1` release provides the public interface text
+catalogue used before app login. See [language package sources](languages/v1/README.md).
+These text resources are separate from the OSM-derived map data described above.
+Preserve the language release during obsolete APK cleanup.
